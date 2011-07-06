@@ -28,6 +28,11 @@
 		<%= f.label :password_confirmation, 'Confirm' %>
 		<%= f.password_field :password_confirmation, :size => 40 %>
 	</div>
+
+	<div>
+		<%= f.label :email, 'Email Address' %>
+		<%= f.text_field :email, :size => 40 %>
+	</div>
 	
 	<div> 
 		<%= f.submit %>
