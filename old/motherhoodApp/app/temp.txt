@@ -1,0 +1,9 @@
+	<div>
+		<%= f.label :g_y_account_name, 'Google or Youtube Account Name' %>
+		<%= f.text_field :g_y_account_name, :size => 40 %>
+	</div>
+		
+	<div>
+		<%= f.label :g_y_account_pwd, 'Google or Youtube Account Password' %>
+		<%= f.password_field :g_y_account_pwd, :size => 40 %>
+	</div>
