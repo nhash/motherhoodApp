@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-
+  skip_before_filter :authorize
   before_filter :authenticate, :only => :destroy
 
   def create
